@@ -1,7 +1,6 @@
 # sample-fs
 Sample application for module fs-system Nativescript
 
-### Screenshot
 <img src="https://github.com/dyazincahya/sample-fs/blob/master/screenshot.jpg"  width="500">
 
 ### Features
