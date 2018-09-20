@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <StackLayout horizontalAlignment="center">
+    <Button text="mkdir" tap="{{ mkdir }}" class="button button-a"/>
+    <Button text="readFile" tap="{{ readFile }}" class="button button-b"/>
+    <Button text="writeFile" tap="{{ writeFile }}" class="button button-c"/>
+    <Button text="appendFile" tap="{{ appendFile }}" class="button button-d"/>
+    <Button text="stat" tap="{{ stat }}" class="button button-a"/>
+  </StackLayout>
+</Page>

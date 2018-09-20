@@ -1,0 +1,22 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.samplefs",
+    "tns-android": {
+      "version": "4.2.0"
+    },
+    "tns-ios": {
+      "version": "4.2.0"
+    }
+  },
+  "description": "Sample application for module fs-system",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "nativescript-permissions": "^1.2.3",
+    "nativescript-theme-core": "~1.0.4",
+    "tns-core-modules": "~4.2.0"
+  },
+  "readme": "NativeScript Application",
+  "author": "kang cahya",
+  "devDependencies": {}
+}

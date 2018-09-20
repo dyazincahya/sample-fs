@@ -1,0 +1,5 @@
+{
+  "appId": "org.nativescript.samplefs",
+  "minSdkVersion": 20,
+  "targetSdkVersion": 23
+}
