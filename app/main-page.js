@@ -17,7 +17,11 @@ var context,
 
 function getPermission() {
     if (platformModule.device.os === "Android" && platformModule.device.sdkVersion >= 23) {
-        permissionsModule.requestPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE, "I need these permissions to read from storage")
+        let permisionOptions = [
+            android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
+            android.Manifest.permission.READ_EXTERNAL_STORAGE
+        ];
+        permissionsModule.requestPermission(permisionOptions, "I need these permissions to read from storage")
             .then(function () {
                 console.log("Permissions granted!");
             })
